@@ -1,10 +1,16 @@
 html {
     box-sizing: border-box;
 }
+
 *, ::after, ::before {
     box-sizing: inherit;
 }
 
 .body {
     background-color: teal;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: azure;
+    overflow: auto;
 }
