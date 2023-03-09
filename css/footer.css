@@ -1,4 +1,5 @@
 .footer {
+   
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -7,6 +8,7 @@
     border-color: black;
     flex-direction: column;
     gap: 7px;
+    
 }
 
 .footer__main {

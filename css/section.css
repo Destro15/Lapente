@@ -1,0 +1,44 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+    margin: 145px 150px 250px 220px;
+    height: 320px;
+}
+
+.card {
+    
+    height: 174px;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 3; 
+    box-shadow: 0.7rem 0.7rem 0 black;
+    border: 7px solid black;
+}
+
+.card p {
+    line-height: 30px;
+    display: none;
+    font-size: 20px;
+}
+
+.card.active p {
+    display: block;
+}
+
+.card.active{
+    
+    grid-column: 1 / span 6;
+    grid-row: 1;
+    order: 0;
+    height: 240px;
+}
+
+.card.is-inactive{
+
+    grid-column: span 2;
+}
