@@ -7,10 +7,11 @@ html {
 }
 
 .body {
-    background-color: teal;
+
     font-family: 'Chakra Petch', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Rubik', sans-serif;
     color: azure;
     overflow: auto;
+    background: linear-gradient(to right, rgb(118, 164, 230), rgb(119, 43, 138));
 }

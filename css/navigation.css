@@ -5,4 +5,29 @@
     border-bottom: solid;
     border-color: black;
     align-items: center;
+
+    background: linear-gradient(to bottom, rgb(118, 165, 230), rgba(119, 43, 138, 0.842));
+}
+
+.navigation__items {
+    font-size: 18px;
+}
+
+
+.header {
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 86, 216));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fade 1.7s ease-in 1s;
+    user-select: none;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
