@@ -13,7 +13,7 @@ html {
     font-family: 'Rubik', sans-serif;
     color: azure;
     overflow: auto;
-    background: linear-gradient(to right, rgb(118, 164, 230), rgb(119, 43, 138));
+    background: linear-gradient(to right, rgb(26 118 255 / 80%), rgba(0, 0, 0, 0.918));
 
     
 }

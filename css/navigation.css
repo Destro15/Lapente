@@ -5,8 +5,7 @@
     border-bottom: solid;
     border-color: black;
     align-items: center;
-
-    background: linear-gradient(to bottom, rgb(118, 165, 230), rgba(119, 43, 138, 0.842));
+   
 }
 
 .navigation__items {
